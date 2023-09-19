@@ -27,7 +27,7 @@ export type AddOfficeBody = {
     phone: string;
 };
 
-export const DATA = [
+const DATA = [
     {
         id: uuid(),
         title: "Headquarters",
